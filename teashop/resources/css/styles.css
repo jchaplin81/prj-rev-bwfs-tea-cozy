@@ -1,0 +1,173 @@
+/* General settings */
+
+body{
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+h2{
+  font-size: 33px;
+}
+
+/* header section */
+/* header is flex container */
+header{
+  display: flex;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+/* flex item (header)*/
+.head img{
+  height: 50px;
+  margin-left: 10px;
+}
+
+/* flex item (header) */
+.nav{
+  margin-right: 10px;
+}
+
+/* flex item */
+span a{
+  color: seashell;
+  font-size: 22px;
+  margin: 0px 10px;
+}
+/*//////////////////////////////////////*/
+/* first section (large image)  */
+/* flex container */
+.first{
+  display: flex;
+  justify-content: center;
+}
+
+/* flex container & flex item (of first)*/
+.mid-image-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+/* flex item (of mid-image-text)*/
+.mid-image-text .text{
+  background-color: black;
+  width: 1200px
+}
+
+/*//////////////////////////////////////*/
+/* second section (tea of the month) */
+/* flex container */
+.second{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+
+
+.thumnails{
+  height: 200px;
+  width: 300px;
+}
+
+/* flex container and flex item (second) */
+.threeimages{
+  display: flex;
+  justify-content: center;;
+}
+
+/* berry spiced and donuts flex items of threeimages */
+.berry{
+    margin: 0 25px;
+}
+
+.spiced{
+    margin: 0 25px;
+}
+
+.donuts{
+    margin: 0 25px;
+}
+
+/* flex container and flex item (second) */
+.imagepair{
+  display: flex;
+  justify-content: center;
+}
+
+.myrtle{
+    margin: 0 25px;
+}
+
+.bedford{
+    margin: 0 25px;
+}
+
+/* myrtle, bedfor are flex items of imagepair */
+
+
+/*//////////////////////////////////////*/
+/* third section (locations) */
+/* flex container */
+.third{
+  display: flex;
+  justify-content: center;
+}
+/* flex container and flex item (third)*/
+.locations-background{
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+}
+
+/* flex container and flex item (locations-background)*/
+.locations-flex-items{
+  display: flex;
+  justify-content: center;
+}
+
+/* flex item (.locations-flex-items)*/
+.downtown{
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin: 0 25px;
+}
+
+/* flex item (.locations-flex-items)*/
+.east-bayside{
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin: 0 25px;
+}
+
+/* flex item (.locations-flex-items)*/
+.oakdale{
+  background-color: black;
+  height: 300px;
+  width: 300px;
+  margin: 0 25px;
+}
+
+/*//////////////////////////////////////*/
+/* footer section */
+
+.copyright h5{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
