@@ -1,6 +1,8 @@
 /* General settings */
 
 body{
+  padding: 0px;
+  margin: 0px;
   background-color: black;
   font-family: Helvetica;
   font-size: 22px;
